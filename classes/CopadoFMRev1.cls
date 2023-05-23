@@ -1,5 +1,8 @@
 public class CopadoFMRev1 {
-	private String var1 = 'First String';
-    private String var2 = ' Second String';
-    
+	private static String var1 = 'First String';
+    private static String var2 = ' Second String';
+    public static void printMethod(){
+        String var3 = var1 + var2;
+        System.debug('var 1 + var2 ::' + var3);
+    }
 }
