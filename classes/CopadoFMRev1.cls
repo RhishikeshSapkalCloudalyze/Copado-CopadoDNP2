@@ -4,6 +4,5 @@ public class CopadoFMRev1 {
     public static void printMethod(){
         String var3 = '';
         var3 += var1 + var2;
-        System.debug('var 1 + var2 ::' + var3);
     }
 }
